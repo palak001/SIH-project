@@ -1,0 +1,3 @@
+node_modules
+# containing mongodb key(atlas)
+config
