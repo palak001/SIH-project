@@ -6,10 +6,10 @@ router.route('/')
     .get(helpers.getVictims)
     .post(helpers.createVictim)
 
-// router.route('/:todoId')
-//     .get(helpers.getVictim)
-//     .put(helpers.updateVictim)
-//     .delete(helpers.deleteVictim)
+router.route('/:victimId')
+    .get(helpers.getVictim)
+    .put(helpers.updateVictim)
+    .delete(helpers.deleteVictim)
 
 
 module.exports = router;
